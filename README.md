@@ -23,7 +23,7 @@ DISK CONTENTS
 - Autologin is enabled via lightdm
 - SMB is enabled and provides access to the root filesystem. On a Mac I mount via `smb://udoo.local`. It should also show up as udoo_samba in a network browser.  
 - simple non-OF app in `home/debian/TEMP/hello` Use compile.sh to compile. This was used to initially get a window open and OpenGL working
-
+- `export DISPLAY=:0` set in `.profile` so you can run apps over ssh
 
 LOGIN INFO:   
 user: debian   
