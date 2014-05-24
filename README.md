@@ -5,12 +5,12 @@ REQUIREMENTS
 - Udoo Quad
 - 4GB Micro SD card
 
-INSTRUCTIONS
-1. Download the disk image  
+INSTRUCTIONS   
+- Download the disk image  
 
 http://www.jvcref.com/files/UDOO/udoo_jessie_xfce_OF_SHRUNK.img
 
-2. Use dd to write to an SD card
+- Use dd to write to an SD card
 
 `$sudo dd if=udoo_jessie_xfce_OF_SHRUNK.img of=/dev/REPLACE_THIS_WITH_SD_CARD_OR_SUFFER bs=1M`
 
