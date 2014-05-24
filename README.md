@@ -1,5 +1,5 @@
-No real files here - just a README   
-
+DESCRIPTION   
+A collection of notes/instructions to get [openFrameworks](http://openframeworks.cc/) to run on the [Udoo Quad](http://elinux.org/UDOO#UDOO_Quad). There are no real files here.      
 
 REQUIREMENTS
 - Udoo Quad
@@ -29,7 +29,7 @@ LOGIN INFO:
 user: debian   
 pass: debian   
 
-NOTES:
+NOTES:   
 I just started with the [OF 0.8.1 Arm7 downloadable](http://www.openframeworks.cc/versions/v0.8.1/of_v0.8.1_linuxarmv7l_release.tar.gz) and mostly hacked on
 
 openFrameworks/libs/openFrameworksCompiled/project/linuxarmv7l/config.linuxarmv7l.default.mk
