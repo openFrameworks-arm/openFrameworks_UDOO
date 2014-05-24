@@ -41,8 +41,8 @@ openFrameworks/libs/openFrameworks/utils/ofConstants.h
 openFrameworks/libs/openFrameworks/app/ofAppEGLWindow.cpp
 openFrameworks/libs/openFrameworks/app/ofAppRunner.h
 
-The base image was provided via this thread
-http://www.udoo.org/forum/debian-jessie-rootfs-with-gpu-vpu-t693.html
+The base image was provided via [this thread](http://www.udoo.org/forum/debian-jessie-rootfs-with-gpu-vpu-t693.html)
+
 
 
 
