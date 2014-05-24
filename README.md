@@ -10,7 +10,7 @@ INSTRUCTIONS
 
 http://www.jvcref.com/files/UDOO/udoo_jessie_xfce_OF_SHRUNK.img
 
-- Use dd to write to an SD card
+- Use dd to write to an SD card.  This similar but not exact to [these instructions](http://xmodulo.com/2013/11/write-raspberry-pi-image-sd-card.html). Be careful.
 
 `$sudo dd if=udoo_jessie_xfce_OF_SHRUNK.img of=/dev/REPLACE_THIS_WITH_SD_CARD_OR_SUFFER bs=1M`
 
