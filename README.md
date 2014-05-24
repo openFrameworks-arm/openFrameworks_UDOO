@@ -6,7 +6,7 @@ REQUIREMENTS
 - 4GB Micro SD card
 
 INSTRUCTIONS   
-- Download the disk image  
+- Download the 2.9 GB disk image  
 
 http://www.jvcref.com/files/UDOO/udoo_jessie_xfce_OF_SHRUNK.img
 
