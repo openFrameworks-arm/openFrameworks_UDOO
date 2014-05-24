@@ -12,12 +12,13 @@ http://www.jvcref.com/files/UDOO/udoo_jessie_xfce_OF_SHRUNK.img
 
 - Use dd to write to an SD card.  This is similar but not exact to [these instructions](http://xmodulo.com/2013/11/write-raspberry-pi-image-sd-card.html). Be careful.
 
-`$sudo dd if=udoo_jessie_xfce_OF_SHRUNK.img of=/dev/REPLACE_THIS_WITH_SD_CARD_OR_SUFFER bs=1M`
+`$ sudo dd if=udoo_jessie_xfce_OF_SHRUNK.img of=/dev/REPLACE_THIS_WITH_SD_CARD_OR_SUFFER bs=1M`
 
 `gparted` is installed on the system if you want to resize the partition to fill the disk. This may be easier on a seperate system (not the UDOO)
 
 DISK CONTENTS   
 - Networking enabled [via wired connection](http://www.udoo.org/forum/debian-jessie-rootfs-with-gpu-vpu-t693-10.html?sid=d8734726d01107fc4cad534d9e83d242#p5934)
+- SSH enabled (primarily how I have been working)
 - OF is in /home/debian/openFrameworks
 - test apps are openFrameworks/apps/udooApps
 - Autologin is enabled via lightdm
@@ -28,6 +29,8 @@ DISK CONTENTS
 LOGIN INFO:   
 user: debian   
 pass: debian   
+
+`$ ssh debian@udoo.local`   
 
 NOTES:   
 I just started with the [OF 0.8.1 Arm7 downloadable](http://www.openframeworks.cc/versions/v0.8.1/of_v0.8.1_linuxarmv7l_release.tar.gz) and mostly hacked on
